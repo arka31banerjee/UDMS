@@ -77,7 +77,7 @@ public class UserService {
 	private String saveFile(MultipartFile file) {
 		try {
 			String filename = UUID.randomUUID().toString().subSequence(0, 5) + "-" + file.getOriginalFilename();
-			String directory = "C:\\SpringWS\\UserDataManagementSystem\\src\\main\\resources\\storage\\";
+			String directory = "C:\\Temp\\";
 			String filePath = directory + filename;
 			file.transferTo(new File(filePath));
 			return filePath;

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.udms</groupId>
-	<artifactId>ent-udms-mgmt-system</artifactId>
+	<artifactId>UserDataManagementSystem</artifactId>
 	<version>1.0.0</version>
 	<name>UserDataManagementSystem</name>
 	<description>An application on user data management</description>
